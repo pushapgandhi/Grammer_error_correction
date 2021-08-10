@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+	<title>GRAMMAR CORRECTION </title>
+</head>
+<body class="bg-warning bg-gradient bg-opacity-10">
+	<nav class="navbar navbar-expand-lg navbar-light bg-warning bg-gradient bg-opacity-10">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="/home"class="fw-bold fs-1">Grammar Error Correction</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarScroll">
+				<ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="/home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/index">Try Model</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About Me</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-inner">
+			<div >
+				<img src= "{{filename[0]}}">
+			</div>
+		</div>
+	</div>
+	
+	<div class="container ">
+		<div>
+			<p class="fw-bold fs-1 text-success">Business Problem</p>
+			<br>
+			<p>
+				The problem that we are dealing with is known as <b>Grammer Error Correction Problem</b>. As the name suggests the given an input sentence in false English (here we are dealing with English Language) we have to predict the correct sentence which interprets the same meaning as the input sentence. 
+			</p>
+			<br>
+			<p class="fw-bold fs-3" >Applications</p>
+			<p><b>1.</b> The problem has a huge application in our day to day practices because writing text is quite a prominent way of sharing information. Considering the fact that time is valuable to everybody, the model could assist the writer to write efficiently in a reduces time and effort.<br>
+				<b>2.</b> Moreover, there are not many individuals who a fluent with english language. These kinds of models make sure that language does not become a barrier in sharing ideas. This will make sure that the reader and the writer are both on the same page. </p>
+			</div>
+			<p class="fw-bold fs-2">Performance Metric</p>
+			<p>The task would be handled as a sequenc to sequence problem therefore that the metric that we would be using here is   <b>BELU score</b>.</p>
+
+			<p class="fw-bold fs-5">BLUE Score</p>
+		This is a metric which is used to compare two sentences and gives a score based on the matching words. The perfect match give tha score of 1  and perfect unmatct gives a value of 0.It is widely used due to is simplicity and coorelation with human evaluation.</p>
+
+		<p class="fw-bold fs-1 text-success">Dataset</p>
+		<p>The problem of this kind requires a high quality datasets which is very rarely available. After the literature survey we have narrowed down the datasets to two sources:<br>
+			<b>1. Lang-8</b><br>
+			<b>2. NUS Social Media Text Normalization and Translation Corpus</b> </p>
+
+
+			<br>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="card bg-dark text-white" style="width: 18rem;">
+						<img src="{{filename[1]}}" class="card-img-top" alt="...">
+						<div class="card-body bg-success bg-opacity-20">
+							<a href="#" class= "card-link text-white fw-bold">Read the full blog</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="card bg-dark text-white" style="width: 18rem;">
+						<img src="{{filename[2]}}" class="card-img-top" alt="...">
+						<div class="card-body bg-success bg-opacity-20">
+							
+							<a href="/index" class="card-link text-white fw-bold">To Try the model</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		
+
+		<footer class="bg-dark bg-gradient  text-dark fw-bold pt-3 pb-2">
+			<div class="container text-center text-md-left">
+				
+				<div class="row text-center text-md-left">
+					<h5 class="text-upparcase mb-4 font-weight-bold text-light">Webapp by Pushap
+						
+					</h5>
+				</div>
+
+			</div>
+		</footer>
+
+	</body>
+	</html>

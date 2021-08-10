@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+	<title>GRAMMAR CORRECTION </title>
+</head>
+<body class="bg-warning bg-gradient bg-opacity-10">
+	<nav class="navbar navbar-expand-lg navbar-light bg-warning bg-gradient bg-opacity-10">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="/home"class="fw-bold fs-1">Grammar Error Correction</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarScroll">
+				<ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="/home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/index">Try Model</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About Me</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-inner">
+			<div >
+				<img src= {{filename}}>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container ">
+		<p class="fw-bold fs-3 text-danger">Incorrect Sentence</p>
+		
+		<p class="text-danger">{{input}}</p>
+		<p class="fw-bold fs-3 text-success">Corrected Sentence</p>
+		
+		<p class="text-success">{{output}}</p>
+		<p class="fw-bold fs-3 text-primary">Alpha Values</p>
+		
+		<img src= {{alpha}} class="img-thumbnail" >
+
+		
+			<br>
+			
+			</div>
+		</div>
+		<br>
+		
+
+		<footer class="bg-dark bg-opacity-20 text-dark fw-bold pt-3 pb-2">
+			<div class="container text-center text-md-left">
+				
+				<div class="row text-center text-md-left">
+					<h5 class="text-upparcase mb-4 font-weight-bold text-light">Webapp by Pushap
+						
+					</h5>
+				</div>
+
+			</div>
+		</footer>
+
+	</body>
+	</html>
